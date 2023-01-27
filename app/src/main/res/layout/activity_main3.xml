@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#107CED"
+    tools:context=".MainActivity3">
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:inputType="textMultiLine"
+        android:text="Önce ilk olarak oyna tuşuna basılır karşınıza bir sayfa gelir, 1 ila 10 arasında bir sayı tahmin etmeniz gerekir tahmininizi boş alana yazmanız
+gerekir, tahmininizi yazdıktan sonra Tahminet tuşuna basılır eğer tahmininiz doğruysa Tebrikler
+        Kazandınız yazısı çıkar eğer yanlışsa size bir ipucu verir ve tekrar denemenizi ister sizde tekrar aynı alana tahmininizi
+ yazarsınız toplamda 3 hakkınız vardır 3 kere sayıyı tahmin edebilirsiniz eğer 3
+haktada bilemezseniz kaybedersiniz "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="47dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
